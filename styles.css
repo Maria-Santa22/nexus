@@ -5,10 +5,10 @@
     box-sizing: border-box;
 }
 
-/* Estilo geral */
+/* Fonte e fundo */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f6fb;
+    background-color: #f4f6f8;
     color: #333;
     line-height: 1.6;
     padding: 20px;
@@ -16,15 +16,16 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #6c63ff;
-    color: white;
-    padding: 30px;
     text-align: center;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-/* Conteúdo principal */
+header h1 {
+    color: #2c3e50;
+    font-size: 32px;
+}
+
+/* Área principal */
 main {
     max-width: 800px;
     margin: auto;
@@ -32,34 +33,37 @@ main {
 
 /* Seções */
 section {
-    background-color: white;
+    background: white;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
-    box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 /* Títulos */
 h2 {
-    color: #6c63ff;
+    color: #34495e;
     margin-bottom: 10px;
+    border-left: 4px solid #3498db;
+    padding-left: 8px;
 }
 
 /* Parágrafos */
 p {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
-/* Lista */
+/* Listas */
 ul {
-    padding-left: 20px;
+    list-style-type: square;
+    margin-left: 20px;
 }
 
 li {
     margin-bottom: 5px;
 }
 
-/* Efeito hover nas seções */
+/* Efeito ao passar o mouse */
 section:hover {
     transform: scale(1.01);
     transition: 0.2s;
