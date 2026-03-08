@@ -21,7 +21,7 @@ header {
 }
 
 header h1 {
-    color: #2c3e50;
+    color: #e58fce;
     font-size: 32px;
 }
 
@@ -42,9 +42,9 @@ section {
 
 /* Títulos */
 h2 {
-    color: #34495e;
+    color: #340b2e;
     margin-bottom: 10px;
-    border-left: 4px solid #3498db;
+    border-left: 4px solid #aa41aa;
     padding-left: 8px;
 }
 
@@ -67,4 +67,14 @@ li {
 section:hover {
     transform: scale(1.01);
     transition: 0.2s;
+}
+/* Foto de perfil */
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    display: block;
+    margin: 0 auto 15px auto; 
+    border: 4px solid #e58fce;
 }
